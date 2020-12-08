@@ -1,0 +1,43 @@
+{
+  "transfers": [
+    {
+      "id": 1,
+      "name": "Caneta BIC Preta",
+      "value": 5.89
+    },
+    {
+      "id": 2,
+      "name": "Caneta BIC Azul",
+      "price": 5.49
+    },
+    {
+      "id": 1,
+      "name": "Caneta BIC Verde",
+      "price": 5.3
+    }
+  ],
+  "deposit": [
+    {
+      "name": "José",
+      "value": "200",
+      "id": 22
+    },
+    {
+      "name": "Rafael",
+      "value": "300",
+      "id": 23
+    }
+  ],
+  "registered": [
+    {
+      "name": "Gabriel",
+      "firstname": "Sousa",
+      "andress": "Avenida Nelson Mandela",
+      "cpf": "8768768",
+      "cep": "98798798",
+      "country": "São `Bernardo do Campo",
+      "state": "São Paulo",
+      "id": 13
+    }
+  ]
+}
