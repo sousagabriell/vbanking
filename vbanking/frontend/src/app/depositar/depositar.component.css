@@ -1,0 +1,46 @@
+.container{
+    height: 88vh;
+    width: 60%;
+    justify-content: end;
+    padding-top: 155px;
+}
+.btn-deposit{
+    width: 25%;
+    font-family: 'Poppins', sans-serif;
+}
+label{
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.9;
+}
+input{
+    border-color:#078FFF;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: none;
+    font-family: 'Poppins', sans-serif;
+}
+h2{
+    font-size: 3.0em;
+    font-weight: 300;
+}
+input:focus{
+    border: 1px solid #7200F5;
+    outline: 0;
+    box-shadow:none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: none;
+}
+.btn-accept{
+    margin-right: 30px;
+}
+
+@media screen and (max-width: 1081px){
+    .btn-deposit{
+        display: wrap;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}

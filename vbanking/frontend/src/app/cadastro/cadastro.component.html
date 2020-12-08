@@ -1,0 +1,79 @@
+<header>
+    <div class="container">
+        <div class="form">
+            <form>
+                <h3 class="text-center title">Abra sua conta</h3>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label type="text">Nome:</label>
+                        <input type="name" class="form-control" placeholder="Seu nome" [(ngModel)]="registered.name">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label>Sobrenome:</label>
+                        <input type="firstname" class="form-control" placeholder="Seu sobrenome"
+                            [(ngModel)]="registered.firstname">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="inputAddress">Endereço:</label>
+                    <input class="form-control" placeholder="Seu endereço" [(ngModel)]="registered.andress">
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label type="text" for="cpf">CPF</label>
+                        <input class="form-control" id="inputCPF" placeholder="Seu CPF" required="required"
+                            pattern="[0-9]+$" [(ngModel)]="registered.cpf">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="firstCep">CEP:</label>
+                        <input type="cep" class="form-control" id="inputCep" placeholder="Seu CEP" required="required"
+                            pattern="[0-9]+$" [(ngModel)]="registered.cep">
+                        <span><a href="http://www.buscacep.correios.com.br/sistemas/buscacep/default.cfm"
+                                target="_blank">Não sei meu CEP</a></span>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label>Cidade</label>
+                        <input type="text" class="form-control" placeholder="Sua Cidade"
+                            [(ngModel)]="registered.country">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label>Estado</label>
+                        <select class="form-control">
+                            <option selected>Escolher...</option>
+                            <option>Acre (AC)</option>
+                            <option>Alagoas (AL)</option>
+                            <option>Amapá (AP)</option>
+                            <option>Amazonas (AM)</option>
+                            <option>Bahia (BA)</option>
+                            <option>Ceará (CE)</option>
+                            <option>Distrito Federal (DF)</option>
+                            <option>Espírito Santo (ES)</option>
+                            <option>Goiás (GO)</option>
+                            <option>Maranhão (MA)</option>
+                            <option>Mato Grosso (MT)</option>
+                            <option>Mato Grosso do Sul (MS)</option>
+                            <option>Minas Gerais (MG)</option>
+                            <option>Pará (PA)</option>
+                            <option>Paraíba (PB)</option>
+                            <option>Paraná (PR)</option>
+                            <option>Pernambuco (PE)</option>
+                            <option>Piauí (PI)</option>
+                            <option>Rio de Janeiro (RJ)</option>
+                            <option>Rio Grande do Norte (RN)</option>
+                            <option>Rio Grande do Sul (RS)</option>
+                            <option>Rondônia (RO)</option>
+                            <option>Roraima (RR)</option>
+                            <option>Santa Catarina (SC)</option>
+                            <option>São Paulo (SP)</option>
+                            <option>Sergipe (SE)</option>
+                            <option>Tocantins (TO)</option>
+                        </select>
+                    </div>
+                </div>
+                <button (click)="registrar()" type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+        </div>
+    </div>
+</header>

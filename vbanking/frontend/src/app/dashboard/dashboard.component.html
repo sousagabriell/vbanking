@@ -1,0 +1,57 @@
+<app-navbar></app-navbar>
+
+<app-navigator></app-navigator>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-4 coluna1 colunas">
+            <h3 class="title-balance"> Olá, Gabriel!</h3>
+            <span class="balance"><small>R$</small>1456<small>,00</small></span>
+        </div>
+        <div class="col-sm-4 coluna2 colunas">
+            <span class="payouts"><small>R$</small>486<small>,00</small></span>
+            <h3 class="title-payouts"> Pagamentos</h3>
+        </div>
+        <div class="col-sm-4 coluna3 colunas">
+        </div>
+        <div class="col-sm-4 blocks recently">
+            <p class="title-recently">Notícias Recentes</p>
+            <div class="card mb-4 card-recently">
+                <div class="news economy">
+                    <h6>Prefeitura de São José injeta cerca de R$ 50 mi na economia</h6>
+                </div>
+            </div>
+            <div class="card mb-4 card-recently">
+                <div class="news graphic">
+                    <h6>Economia e COVID-19: cenários possíveis para a recuperação</h6>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4 blocks deposits">
+            <p class="title-transactions">Depósitos</p>
+            <div>
+                <div class="transactions " *ngFor="let deposit of deposits">
+                    <div class="name-transaction">
+                        <span> {{ deposit.name }}</span>
+                        <br>
+                        <small>25/11/2020</small>
+                    </div>
+                    <span>R$ {{ deposit.value }}</span>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4 blocks">
+
+            <p class="title-transactions">Transferências</p>
+            <div>
+                <div class="transactions">
+                    <div class="name-transaction">
+                        <span>Amazon</span>
+                        <br>
+                        <small>25/11/2020</small>
+                    </div>
+                    <span>R$15.00</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

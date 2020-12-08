@@ -1,0 +1,112 @@
+
+.sidebar {
+  margin: 0;
+  padding: 11% 0 ;
+  width: 20%;
+  background-color: #fff;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+.sidebar a {
+  display: block;
+  color: #000;
+  padding: 16px;
+  text-decoration: none;
+  font-size: 1.2em;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#dashboard::before{
+  font-family: FontAwesome;
+  content: '\f015';
+  padding-right: 15px;
+  padding-left: 30px;
+}
+#chat::before{
+  font-family: FontAwesome;
+  content: '\f086';
+  padding-right: 15px;
+  padding-left: 30px;
+}
+#card::before{
+  font-family: FontAwesome;
+  content: '\f09d';
+  padding-right: 15px;
+  padding-left: 30px;
+}
+#pix::before{
+  font-family: FontAwesome;
+  content: '\f005';
+  padding-right: 15px;
+  padding-left: 30px;
+}
+#support::before{
+  font-family: FontAwesome;
+  content: '\f059';
+  padding-right: 15px;
+  padding-left: 30px;
+}
+#transfer::before{
+  font-family: FontAwesome;
+  content: '\f074';
+  padding-right: 15px;
+  padding-left: 30px;
+}
+#deposit::before{
+  font-family: FontAwesome;
+  content: '\f2b6';
+  padding-right: 15px;
+  padding-left: 30px;
+}
+#demand::before{
+  font-family: FontAwesome;
+  content: '\f0a1';
+  padding-right: 15px;
+  padding-left: 30px;
+}
+
+.sidebar a:hover:not(.active) {
+  background-color: #078FFF;
+  color: white;
+  transition: .3s;
+}
+
+div.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 1000px;
+}
+@media screen and (max-width: 1195px) {
+  .sidebar {
+    width: 80%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  .sidebar a {
+    float: none;
+    text-align: center;
+  }
+  #dashboard::before{
+    padding-left: 0px;
+  }
+  #chat::before{
+    padding-left: 0px;
+  }
+  #card::before{
+    padding-left: 0px;
+  }
+  #pix::before{
+    padding-left: 0px;
+  }
+  .sidebar a{
+    width: 35%;
+    padding: 15px;
+  }
+  .sidebar {
+    padding: 10% 0 10% 0;
+  }
+}

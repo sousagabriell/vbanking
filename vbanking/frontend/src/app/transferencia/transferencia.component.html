@@ -1,0 +1,20 @@
+<app-navbar></app-navbar>
+
+<app-navigator></app-navigator>
+<div class="container">
+    <h2 class="mb-5">Realizar Depósito</h2>
+    <form class="mb-5">
+        <div class="form-group">
+            <label>Nome:</label>
+            <input class="form-control" placeholder="Nome do depósito" name="name">
+        </div>
+        <div class="form-group">
+            <label>Valor:</label>
+            <input class="form-control" name="value" placeholder="Valor do Depósito">
+        </div>
+    </form>
+    <div class="button">
+        <button class="btn btn-success btn-deposit btn-accept">Depositar</button>
+        <button class="btn btn-danger btn-deposit" routerLink='/dashboard'>Cancelar Depósito</button>
+    </div>
+</div>
