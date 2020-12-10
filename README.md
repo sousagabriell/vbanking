@@ -19,7 +19,6 @@
 </ul>
 <span>Por questão de tempo, não foi possível implementar função de saldo porém é algo que futuramente gostaria de aplicar dentro da aplicação. Os componentes não estão totalmente responsivos porém tenho o protótipo clicavel feito no Adobe XD onde se pode ter uma noção como seria o ui da aplicação na versão mobile. Segue o link:</span>
 <br>
-<span>Versão desktop:</span><a href="https://xd.adobe.com/view/2a8b7390-5442-4500-55ef-54cd6f2de797-5cba/?fullscreen"></a>
-[Desktop](https://xd.adobe.com/view/2a8b7390-5442-4500-55ef-54cd6f2de797-5cba/?fullscreen)
+<span>Versão desktop:</span>(https://xd.adobe.com/view/2a8b7390-5442-4500-55ef-54cd6f2de797-5cba/?fullscreen)
 <br>
 <span>Versão mobile:</span><a href="https://xd.adobe.com/view/4a78c0cc-addb-4102-59dc-578e25f04dbc-3c49/?fullscreen"></a>
