@@ -6,3 +6,6 @@
   <img src="https://i.imgur.com/c8RPFES.jpg"/>
   <img src="https://i.imgur.com/osPKa4U.jpg"/>
 </p>
+<h3 align="center">
+  Vbanking trata-se de um open banking desenvolvido em Angular 9.
+</h3>
