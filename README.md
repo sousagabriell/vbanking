@@ -7,5 +7,15 @@
   <img src="https://i.imgur.com/osPKa4U.jpg"/>
 </p>
 <h3 align="center">
-  Vbanking trata-se de um open banking desenvolvido em Angular 9.
+  Vbanking trata-se de um open banking desenvolvido em Angular 9
 </h3>
+<h3>
+  dentre suas funcionalidades temos:
+</h3>
+<ul>
+  <li>Login</li>
+  <li>Cadastro</li>
+  <li>Extrato de depósito</li>
+</ul>
+
+
