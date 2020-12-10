@@ -17,5 +17,4 @@
   <li>Cadastro</li>
   <li>Extrato de depósito</li>
 </ul>
-
-
+<span>função de saldo porém é algo que futuramente gostaria de aplicar dentro da aplicação. Os componentes não estão totalmente responsivos porém tenho o protótipo clicavel feito no Adobe XD onde se pode ter uma noção como seria o ui da aplicação na versão mobile. Segue o link:</span>
