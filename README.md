@@ -23,7 +23,7 @@
 <span>Versão desktop:</span>https://xd.adobe.com/view/2a8b7390-5442-4500-55ef-54cd6f2de797-5cba/?fullscreen
 <br>
 <br>
-<span>Versão mobile:</span>"https://xd.adobe.com/view/4a78c0cc-addb-4102-59dc-578e25f04dbc-3c49/?fullscreen
+<span>Versão mobile:</span>https://xd.adobe.com/view/4a78c0cc-addb-4102-59dc-578e25f04dbc-3c49/?fullscreen
 <br>
 <br>
 <h3>Como usar?</h3>
