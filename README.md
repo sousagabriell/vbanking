@@ -3,6 +3,6 @@
 </p>
 <h1 align="center">Vbanking<h1>
 <p align="center">
-  <img src="https://imgur.com/c8RPFES"/>
-  <img src="https://imgur.com/osPKa4U"/>
+  <img src="https://i.imgur.com/c8RPFES.jpg"/>
+  <img src="https://i.imgur.com/osPKa4U.jpg"/>
 </p>
