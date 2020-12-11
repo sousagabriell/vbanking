@@ -29,5 +29,5 @@
 <h3>Como usar?</h3>
 <span>A aplicação está rodando em angular 9, para iniciá-la basta entrar dentro da pasta “frontend” e utilizar o comando “ng serve”.</span>
 <br>
-<span>O backend foi construído a partir de um módulo chamado json-server, ele cria uma API fake para que possa ser feito toda a construção frontend sem que seja necessário a criação de um backend já pronto. Para rodar, basta entrar dentro da pasta “backend” e utilizar o comando “npm init”.</span>
+<span>O backend foi construído a partir de um módulo chamado json-server, ele cria uma API fake para que possa ser feito toda a construção frontend sem que seja necessário a criação de um backend já pronto. Para rodar, basta entrar dentro da pasta “backend” e utilizar o comando “npm start”.</span>
 <span>O login da aplicação está mockado, basta utilizar os dados “Gabriel” no campo nome e “8768768” no campo cpf.</span>
